@@ -13,7 +13,7 @@ const Card = ({ item }) => {
                 </button>
 
                 <div className={styles.cardHeader}>
-                    <Link to={`product/${item.id}`}>
+                    <Link to={`/product/${item.id}`}>
                         <img className={styles.cardImg} src={item.image} />
                     </Link>
                     
